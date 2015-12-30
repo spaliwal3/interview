@@ -91,7 +91,7 @@ public class LinkedList <E extends Comparable <E>> implements Iterable<E>{
 			return null;
 		
 		if(head.data.compareTo((data)) == 0)
-		{	removeFront();}
+		{	return removeFront();}
 		
 		Node curr = head;
 		E temp = null;
@@ -166,7 +166,7 @@ public class LinkedList <E extends Comparable <E>> implements Iterable<E>{
 		System.out.println(list.toString());
 		System.out.println(list.size());
 		
-		System.out.println("removed :"+list.remove(5));
+		System.out.println("removed :"+list.remove(6));
 		
 		System.out.println(list.toString());
 	}
